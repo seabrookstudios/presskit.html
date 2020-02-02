@@ -1,144 +1,18 @@
-<!-- # Product — presskit.html -->
-
-<!--
-  **This is your product or game page**. It should focus on _ONLY_ one product. This is not a replacement for your product's website, but a quick way for the press to know it faster.
-
-  [Check the actual rendered page for the code you'll find below.](http://pixelnest.io/presskit.html/example/product/)
-
-  If you don't have a `data.xml` yet, the easiest way to start is to run this command in your presskit folder:
-
-  ```bash
-  presskit new -t product
-  ```
-
-  Then, open the generated `data.xml` file and fill the blanks while following this guide.
-
-  <hr>
-
-  For your company' `data.xml`, [refer to the company documentation](../company/).
-
-  <hr>
--->
-
-<!-- Don't forget to set your XML header correctly. -->
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--
-  Use a `<product>` or `<game>` tag.
--->
 <product>
-  <!-- ## General Information -->
-
-  <!-- Begin with your product name, website, and miscellaneous information. -->
-  <title>My Super Game</title>
-  <website>http://pizzaburger.studio/mysupergame</website>
-
-  <!-- You can also add an URL to a request page for this product. A button will be displayed on the page. -->
-  <press-copy-request>
-    http://pizzaburger.studio/mysupergame/request/
-  </press-copy-request>
-
-  <!--
-    If you have one or many publishers for this product, you can add them here.
-
-    The `<based-in>` and `<website>` tags are optional.
-  -->
-  <partners>
-    <partner>
-      <type>Publisher</type>
-      <title>Pixelnest Studio</title>
-      <website>https://pixelnest.io/</website>
-      <based-in>Rennes, France</based-in>
-    </partner>
-    <partner>
-      <type>Distributor</type>
-      <title>Pizza Oven LLC</title>
-    </partner>
-  </partners>
-
-  <!-- Add as many dates, platforms and prices as needed. -->
+  <title>Victory Lap</title>
+  <website>http://playvictorylap.com</website>
   <release-dates>
-    <release-date>04 Feb, 2016</release-date>
-    <release-date>10 Oct, 2016</release-date>
+    <release-date>25.03.2018 - Season 1 (early access)</release-date>
+    <release-date>17.03.2019 - Season 2 (early access)</release-date>
+    <release-date>12.03.2020 - Season 3 (early access)</release-date>
   </release-dates>
-
-  <!--
-    Put all the platforms your product is available on.
-
-    `<link>` tag is optional.
-  -->
   <platforms>
     <platform>
-      <name>PC / Mac</name>
-      <link>http://itch.io/</link>
-    </platform>
-    <platform>
-      <name>Steam</name>
-      <link>http://steampowered.com/</link>
-    </platform>
-    <platform>
-      <name>Inc New Store (TBA)</name>
+      <name>Mobile</name>
+      <link>http://playvictorylap.com</link>
     </platform>
   </platforms>
-
-  <!-- Show the price of your product. Try to be exhaustive, it will be helpful for a reviewer. -->
-  <prices>
-    <price>
-      <currency>EUR</currency>
-      <value>20</value>
-    </price>
-    <price>
-      <currency>USD</currency>
-      <value>20</value>
-    </price>
-    <price>
-      <currency>GBP</currency>
-      <value>16</value>
-    </price>
-    <price>
-      <currency>JPY</currency>
-      <value>2300</value>
-    </price>
-  </prices>
-
-  <!-- ## Relations -->
-
-  <!--
-    You can specify relations between products using the `<relations>` tag.
-
-
-    Then, on this page product, you will see a new line in the factsheet:
-
-    ```
-    DLC:
-    My Super Game: Ultimate Edition
-    ```
-
-    Of course, the `Product Name` value is clickable.
-
-    In the related product page, a new value will also be added:
-
-    ```
-    DLC of:
-    My Super Game
-    ```
-
-    _Obviously, since the name we provide in the example is not a real product (ie., the product data.xml does not exist), this tag will be ignored for this page._
-
-    You can have as many relations as you want. You can use it to show DLCs, expansions, sequels, prequels, etc.
-
-    **Warning**: you need to rebuild the presskit to see the changes.
-  -->
-  <relations>
-    <relation>
-      <type>DLC</type>
-      <product>My Super Game: Ultimate Edition</product>
-    </relation>
-  </relations>
-
-  <!-- ## Description & History -->
-
-  <!-- Describe your product here. Be brief. -->
   <description>
     Here goes a quick description of your product or game. Be concise and explain in very few words the concept or the gameplay and why it's really cool and why everyone should use or play it.
   </description>

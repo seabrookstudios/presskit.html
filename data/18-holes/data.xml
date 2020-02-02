@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>18 Holes</title>
+  <website>http://18holesgame.com</website>
+
+  <!-- <partners>
+    <partner>
+      <type>Publisher</type>
+      <title>Seabrook Studios</title>
+      <website>https://seabrook-studios.com</website>
+      <based-in>Melbourne, Australia</based-in>
+    </partner>
+  </partners> -->
+
+  <release-dates>
+    <release-date>2020</release-date>
+  </release-dates>
+  <platforms>
+    <platform>
+      <name>Table Top</name>
+      <link>http://18holesgame.com</link>
+    </platform>
+  </platforms>
+  <description>
+    18 Holes is a strategy golfing board game where hitting off-course, on-purpose may be the fastest way to the green.
+  </description>
+  <histories>
+    <history>
+      <header>Inspiration</header>
+      <text>
+        The original inspiration came from a friend who was coming to visit, someone who loves golf. I thought, I'll make you a golf board game and spent the evening cutting hexagons out of card. It played well enough to keep iterating on.
+      </text>
+    </history>
+    <history>
+      <text>
+        Early on I thought it was going to be some kind of strange golf - carcassonne hybrid and even had the working title of Golfcassonne for a while.
+      </text>
+    </history>
+    <history>
+      <text>
+        Later, I started developing this notion of taking existing sports and changing how we 'play' the sport to open it up to people who would traditionally not be good at it. So for 18 Holes it was trying to keep the thinking side of golf while replacing the dependency on good coordination, rhythm, time, money, a car and good weather in order to play and then to be good at the game.
+      </text>
+    </history>
+    <history>
+      <header>Kickstarter I</header>
+      <text>
+        In June 2019 we launched a Kickstarter for 18 Holes which ended up failing to reach its funding target. We gathered enough support to know we had a game worth playing and set about apply the feedback we received during the Kickstarter.
+      </text>
+    </history>
+    <history>
+      <header>Kickstarter II</header>
+      <text>
+        With the necessary changes in place, we are heading back to Kickstarter on the 3rd of Match 2020.
+      </text>
+    </history>
+  </histories>
+  <features>
+    <feature>
+      Play a new golf course everytime you play using our procgen rules, crafting something yourself or going online and building a course designed by another player.
+    </feature>
+    <feature>
+      Lightweight ruleset designed to bring golf to boardgamers and boardgames to golfers. Draft your five clubs to suit the course then tee-off. Play focuses on hand management – each club can only be used once until all are used, hazard avoidance – the different hazard pose different challenges and finding the shortest path to the green.
+    </feature>
+    <feature>
+      8 different game modes to suit different crowds. Match Play, golf racing, chaos golf‽ As well as game modes closer to outdoor golf like stroke play and Stableford. 18 Holes has something for your game night.
+    </feature>
+    <feature>
+      1-4 players including a solo mode and a dedicated coop mode for 2 players. Playtime is between 30-60 minutes.
+    </feature>
+    <feature>
+      18 Holes will launch with an English printed ruleset and German, French, Spanish and Italian digital rules
+    </feature>
+    <feature>
+      No green fees.
+    </feature>
+  </features>
+  <trailers>
+    <trailer>
+      <name>How to play 18 Holes</name>
+      <youtube>V8goRoo1AD0</youtube>
+    </trailer>
+  </trailers>
+  <!-- <quotes>
+    <quote>
+      <description>This is my favorite game of all time.</description>
+      <name>Mum</name>
+      <website>At home</website>
+      <link>http://at.home/</link>
+    </quote>
+    <quote>
+      <description>A very serious quote you're very proud of by someone you respect.</description>
+      <name>Master</name>
+      <website>Master's website</website>
+      <link>http://mast.er/</link>
+    </quote>
+    <quote>
+      <description>10/10 would play it again and again.</description>
+      <name>A friendly anonymous Steam reviewer</name>
+      <website>Steam review</website>
+      <link>http://steam.review/</link>
+    </quote>
+  </quotes> -->
+  <credits>
+    <credit>
+      <person>Ryan Boucher</person>
+      <role>Game Design, Seabrook Studios</role>
+    </credit>
+    <credit>
+      <person>Josh Sacco</person>
+      <role>Game Art, freelancer</role>
+    </credit>
+  </credits>
+  <contacts>
+    <contact>
+      <name>Inquiries</name>
+      <mail>rybo@seabrook-studios.com</mail>
+    </contact>
+    <contact>
+      <name>Twitter</name>
+      <link>
+        https://twitter.com/18holesgame
+      </link>
+    </contact>
+    <contact>
+      <name>Facebook</name>
+      <link>
+        https://facebook.com/18holesgame
+      </link>
+    </contact>
+    <contact>
+      <name>Web</name>
+      <link>
+        https://18holesgame.com
+      </link>
+    </contact>
+  </contacts>
+</product>
