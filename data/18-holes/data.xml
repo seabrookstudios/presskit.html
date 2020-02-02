@@ -15,6 +15,12 @@
   <release-dates>
     <release-date>2020</release-date>
   </release-dates>
+  <prices>
+    <price>
+      <currency>AUD</currency>
+      <value>70 (MSRP)</value>
+    </price>
+    </prices>
   <platforms>
     <platform>
       <name>Table Top</name>
