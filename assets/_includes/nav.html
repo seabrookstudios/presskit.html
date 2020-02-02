@@ -9,15 +9,20 @@
 
   <aside class="nav__subtitle">
     {{#if isProduct}}
-    <a href="..">press kit</a>
+    <a href="../index.html">press kit</a>
     {{else}}
-    <a href="{{presskit.website}}">{{prettyURL presskit.website}}</a>
+    <a href="{{presskit.website}}/presskit/index.html">press kit</a>
     {{/if}}
   </aside>
 
   <div class="nav__toggle" id="hamburger">
     <a href="#" class="button" id="hamburger-toggle">
-      <svg width="10" height="10" viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg">
+      <svg
+        width="10"
+        height="10"
+        viewBox="0 0 19 19"
+        xmlns="http://www.w3.org/2000/svg"
+      >
         <g fill="currentColor" fill-rule="nonzero">
           <path d="M0 16h19v3H0zM0 8h19v3H0zM0 0h19v3H0z" />
         </g>
@@ -35,81 +40,55 @@
     <li>
       <a class="nav__item" href="#description">Description</a>
     </li>
-    {{/if}}
-
-    {{#if presskit.history}}
+    {{/if}} {{#if presskit.history}}
     <li>
       <a class="nav__item" href="#history">History</a>
     </li>
-    {{/if}}
-
-    {{#if presskit.histories}}
+    {{/if}} {{#if presskit.histories}}
     <li>
       <a class="nav__item" href="#history">History</a>
     </li>
-    {{/if}}
-
-    {{#if products}}
+    {{/if}} {{#if products}}
     <li>
       <a class="nav__item" href="#projects">Projects</a>
     </li>
-    {{/if}}
-
-    {{#if presskit.widgets.mailchimp}}
+    {{/if}} {{#if presskit.widgets.mailchimp}}
     <li>
       <a class="nav__item" href="#mailing-list">Mailing List</a>
     </li>
-    {{/if}}
-
-    {{#if presskit.trailers}}
+    {{/if}} {{#if presskit.trailers}}
     <li>
       <a class="nav__item" href="#videos">Videos</a>
     </li>
-    {{/if}}
-
-    {{#if images.screenshots}}
+    {{/if}} {{#if images.screenshots}}
     <li>
       <a class="nav__item" href="#images">Images</a>
     </li>
-    {{/if}}
-
-    {{#if images.logos}}
+    {{/if}} {{#if images.logos}}
     <li>
       <a class="nav__item" href="#logo">Logo & Icon</a>
     </li>
-    {{/if}}
-
-    {{#if presskit.widgets}}
+    {{/if}} {{#if presskit.widgets}}
     <li>
       <a class="nav__item" href="#widgets">Widgets</a>
     </li>
-    {{/if}}
-
-    {{#if presskit.awards}}
+    {{/if}} {{#if presskit.awards}}
     <li>
       <a class="nav__item" href="#awards">Awards & Recognition</a>
     </li>
-    {{/if}}
-
-    {{#if presskit.quotes}}
+    {{/if}} {{#if presskit.quotes}}
     <li>
       <a class="nav__item" href="#articles">Selected Articles</a>
     </li>
-    {{/if}}
-
-    {{#if presskit.additionals}}
+    {{/if}} {{#if presskit.additionals}}
     <li>
       <a class="nav__item" href="#links">Additional Links</a>
     </li>
-    {{/if}}
-
-    {{#if isProduct}}
+    {{/if}} {{#if isProduct}}
     <li>
       <a class="nav__item" href="#about">About {{company.title}}</a>
     </li>
-    {{/if}}
-
-    {{#each presskit.abouts}}
+    {{/if}} {{#each presskit.abouts}}
     <li>
       <a class="nav__item" href="#about_{{title}}">About {{title}}</a>
     </li>
