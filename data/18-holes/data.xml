@@ -18,13 +18,13 @@
   <prices>
     <price>
       <currency>AUD</currency>
-      <value>70 (MSRP)</value>
+      <value>75 (MSRP)</value>
     </price>
     </prices>
   <platforms>
     <platform>
-      <name>Table Top</name>
-      <link>http://18holesgame.com</link>
+      <name>Kickstarter</name>
+      <link>https://ks.18holesgame.com</link>
     </platform>
   </platforms>
   <description>
@@ -85,27 +85,27 @@
       <name>How to play 18 Holes</name>
       <youtube>V8goRoo1AD0</youtube>
     </trailer>
+    <trailer>
+      <name>18 Holes Preview</name>
+      <youtube>-Y2742Y0l50</youtube>
+    </trailer>
+    <trailer>
+      <name>The Lighten Up Initiative Preview</name>
+      <youtube>0ZHcukD2gJI</youtube>
+    </trailer>
+    <trailer>
+      <name>Stella's Short and Sweet</name>
+      <youtube>i7VEHd1Twms</youtube>
+    </trailer>
   </trailers>
-  <!-- <quotes>
+  <quotes>
     <quote>
-      <description>This is my favorite game of all time.</description>
-      <name>Mum</name>
+      <description>4/5</description>
+      <name>Spencer Williams - The Lighten Up Initiative</name>
       <website>At home</website>
       <link>http://at.home/</link>
     </quote>
-    <quote>
-      <description>A very serious quote you're very proud of by someone you respect.</description>
-      <name>Master</name>
-      <website>Master's website</website>
-      <link>http://mast.er/</link>
-    </quote>
-    <quote>
-      <description>10/10 would play it again and again.</description>
-      <name>A friendly anonymous Steam reviewer</name>
-      <website>Steam review</website>
-      <link>http://steam.review/</link>
-    </quote>
-  </quotes> -->
+  </quotes>
   <credits>
     <credit>
       <person>Ryan Boucher</person>
