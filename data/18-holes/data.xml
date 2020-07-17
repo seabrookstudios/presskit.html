@@ -18,13 +18,21 @@
   <prices>
     <price>
       <currency>AUD</currency>
-      <value>75 (MSRP)</value>
+      <value>79.99 (MSRP)</value>
+    </price>
+    <price>
+      <currency>USD</currency>
+      <value>54.99 (MSRP)</value>
+    </price>
+    <price>
+      <currency>€</currency>
+      <value>49.99 (MSRP)</value>
     </price>
     </prices>
   <platforms>
     <platform>
-      <name>Kickstarter</name>
-      <link>https://ks.18holesgame.com</link>
+      <name>Table Top</name>
+      <link>https://shop.seabrook-studios.com</link>
     </platform>
   </platforms>
   <description>
@@ -56,7 +64,7 @@
     <history>
       <header>Kickstarter II</header>
       <text>
-        With the necessary changes in place, we are heading back to Kickstarter on the 3rd of Match 2020.
+        With the necessary changes in place, we went back to Kickstarter on the 3rd of Match 2020 and successfully funded in 6 days and reached all our stretch goals with the help of 408 backers.
       </text>
     </history>
   </histories>
